@@ -11,3 +11,16 @@ fields:
 - type: text
   name: description
   label: description
+- name: toggle
+  type: boolean
+  label: toggle
+- name: colorpicker
+  type: color
+  label: colorpicker
+  config:
+    required: false
+    color_format: Hex
+- name: fieldgroup
+  type: field_group
+  config: {}
+  label: fieldgroup
