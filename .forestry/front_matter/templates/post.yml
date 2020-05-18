@@ -14,3 +14,13 @@ fields:
 - type: text
   name: description
   label: description
+- name: cp
+  type: color
+  label: cp
+  config:
+    required: false
+    color_format: Hex
+- name: fg
+  type: field_group
+  config: {}
+  label: fg
